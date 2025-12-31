@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signature Swiss | Private Property Search</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['Playfair Display', 'serif'], // Elegant serif for headings
+              sans: ['Lato', 'sans-serif'], // Clean modern sans
+              display: ['Pinyon Script', 'cursive'], // Flourished calligraphy for Branding
+            },
+            colors: {
+              'obsidian': '#080808',
+              'charcoal': '#121212',
+              'luxury-gold': '#C5A059', // Slightly more muted gold
+              'alabaster': '#FDFDFD',
+              'stone-grey': '#777777',
+            },
+            letterSpacing: {
+              'super-wide': '0.3em', // Increased spacing for elegance with smaller text
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-alabaster text-obsidian antialiased font-sans selection:bg-luxury-gold selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>
